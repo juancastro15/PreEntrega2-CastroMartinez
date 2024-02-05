@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CDN para conectarme a Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CDN para conectarme a Bootstrap -->
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--CSS-->
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap" rel="stylesheet">
+    <!--Google Fonts-->
+
+    <title>Acerca de la Ciudad</title>
+</head>
+<body class="acerca">
+
+    <!-- CDN pero de JS para usar el archivo de JS que crearon -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- CDN pero de JS para usar el archivo de JS que crearon -->
+
+    <!--Inicio de nuestro Header-->
+    <header>
+        <nav class="pantalla-compu">
+            <ul class="barra-navegante">
+                <li><img src="Imagenes/logo-malaga.png" alt="el logo de la pagina"></li>
+                <li><a href="Inicio.html">INICIO</a></li>
+                <li><a href="Atracciones.html">ATRACCIONES</a></li>
+                <li><a href="acerca.html">ACERCA</a></li>
+                <li><a href="rutas.html">RECOMENDACIONES</a></li>
+                <li><a href="nosotros.html">QUIENES SOMOS</a></li>
+            </ul>
+        </nav>
+
+        <!-- Navbar de Bootstrap (inicialmente oculta en pantallas grandes) -->
+        <nav class="navbar navbar-expand-lg d-lg-none">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="Imagenes/logo-malaga.png" alt="el logo de la pagina"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Inicio.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Atracciones.html">ATRACCIONES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="acerca.html">ACERCA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rutas.html">RECOMENDACIONES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">QUIENES SOMOS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Fin de la Navbar de Bootstrap-->
+
+    </header>
+    <!--Fin de nuestro Header-->
+
+    <!--Inicio de la seccion Introdutoria-->
+    <section class="acerca-titulo">
+        <h1>ACERCA DE LA CIUDAD</h1>
+        <p class="ciudad">Los cimientos de la ciudad de Málaga, tejidos con la delicadeza de la estructura malagueña, exhalan siglos de historia en cada adoquín. Aquí, palpita el corazón de una pasión andaluza que impregna cada callejón adoquinado y se eleva en el eco de cada melodía flamenca. Los festivales coloridos, como la Feria de Málaga, danzan en armonía con el pasado, fusionando la tradición con el presente en una celebración que destila alegría y emoción.</p>
+    </section>
+    <!--Fin de nuestra Introduccion-->
+    
+    <!--Inicio de la seccion Historia-->
+    <section class="cultura-ocio">
+        <h2 class="subtitulo-historia">HISTORIA</h2>
+        <div class="historia-1">
+            <div>
+                <p>Ubicada estratégicamente en la pintoresca costa sur de España, la ciudad de Málaga se erige como un testigo histórico que se remonta a la antigüedad. Su origen se entrelaza con la fundación de la colonia fenicia "Malaka" en el siglo VIII a.C., forjando su identidad como un bullicioso puerto comercial que prosperó gracias a la sinergia cultural y comercial que la caracterizaba.</p>
+
+                <p>En la época romana, Malaca floreció como un epicentro comercial esencial y una próspera región productora de vino y aceite. Las huellas de esta era perduran, siendo el teatro romano un monumento bien conservado que testimonia la opulencia y la actividad cultural de la ciudad.</p>
+            </div>
+        
+            <img src="Imagenes/teatro-romano.jpeg" alt="Teatro Romano en Malaga">
+        </div>
+
+        <div class="historia-2">
+            <img src="Imagenes/catedral.webp" alt="la Catedral de Malaga">
+
+            <div>
+                <p>En 1487, la conquista de Málaga por los Reyes Católicos, Fernando e Isabel, marcó una transición monumental. La construcción de la Catedral de Málaga sobre los cimientos de una mezquita simboliza la metamorfosis cultural de la ciudad durante este periodo trascendental.</p>
+
+                <p>A lo largo de la Edad Moderna, Málaga desempeñó un papel clave en el comercio marítimo y la exploración, enfrentando desafíos económicos intermitentes. Sin embargo, el siglo XIX presenció un resurgimiento económico impulsado por la industrialización y el comercio, consolidando a Málaga como una ciudad dinámica que entrelaza con destreza su rico pasado histórico con la vitalidad del presente.</p>
+            </div>
+        </div>
+    </section>
+    <!--Fin de la seccion Historia-->
+
+    <!--Inicio de nuestro footer-->
+    <footer>
+        <p class="foot-acerca">DERECHOS DE AUTOR RESERVADOS A LA COMUNIDAD DE CONOCE MALAGA</p>
+    </footer>
+    <!--Fin de nuestro footer-->
+
+</body>
+</html>

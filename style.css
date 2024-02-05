@@ -1,0 +1,694 @@
+/* Indicaciones predeterminadas para todos los HTML */
+    .barra-navegante li a:hover {
+        color: black;
+    }
+
+    .barra-navegante li a:active {
+        color: black;
+        text-decoration: underline;
+    }
+/* Fin de las idicaciones generales para los HTML */
+
+
+
+/* Comienzo de Inicio.html */
+    .inicio {
+        background-image: url(Imagenes/mlaga-2.jpeg);
+    }
+
+    /* Inicio del Header*/
+    .inicio header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;}
+
+    .inicio header h1 {
+        padding: 25px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 5em;
+    }
+
+    .inicio header h1 img {
+        width: 100px;
+        height: auto;
+        margin: 0 10px;
+    }
+    /* Fin de nuestro Header */
+
+    /* Inicio de nuestro Section */
+    .inicio section div p {
+        text-align: center;
+        color: #ffffe0;
+        font-family: "Lobster", sans-serif;
+        font-size: 33px;
+        font-weight: 400;
+        font-style: normal;
+}
+
+    .texto-bienvenida {
+        margin: 5px;
+    }
+    /* Fin de nuestro Section */
+
+    /* Inicio del Main */
+    /* Estilos para los botones */
+    .main-container {
+        padding: 80px;
+    }
+    
+    .button-container a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px; /* Aumenté el tamaño del padding */
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 30px;
+        text-align: center;
+        background-color: #f5deb3;
+        color: black;
+        text-decoration: none;
+        border-radius: 10px; /* Aumenté el radio del borde para hacerlo más redondeado */
+        transition: background-color 0.3s ease;
+        width: 100%; /* Ocupar todo el ancho del contenedor */
+    }
+    
+    .button-container a:hover {
+        background-color: #deb887;
+    }
+
+    .button-container a:active {
+        background-color: #d2691e;
+    }
+    /* Fin del Main */
+
+    /* Inicio de nuestro Footer */
+    .inicio-footer {
+        display: flex;
+        justify-content: center;
+        font-family: "Bebas Neue", sans-serif;
+    }
+
+    .inicio-footer p {
+        color: white;
+    }
+    /* Fin de nuestro Footer */
+
+    /* Media-query de Mobile */
+    @media only screen and (max-width: 480px) {
+        .inicio header {
+            height: 15vh; /* Reduzco la altura del header */
+        }
+    
+        .inicio header h1 {
+            padding: 15px; /* Reduzco el padding del h1 */
+            font-size: 3em; /* Reduzco el tamaño de la fuente */
+        }
+    
+        .inicio header h1 img {
+            width: 80px; /* Reduzco el tamaño de la imagen */
+            margin: 0 5px; /* Reduzco el margen de la imagen */
+        }
+
+        .main-container {
+            padding: 40px; /* Ajusté el padding */
+        }
+    
+        .button-container {
+            display: flex;
+            flex-direction: column; /* Cambié la dirección a column */
+            align-items: center;
+        }
+    
+        .button-container a {
+            padding: 12px; /* Ajusté el tamaño del padding */
+            margin-bottom: 10px; /* Agregué un margen inferior entre botones */
+            width: 80%; /* Ajusté el ancho de los botones */
+            font-size: 20px;
+        }
+    }
+
+    /* Media-query de Desktop */
+    @media only screen and (min-width: 981px) {
+        /* Ajustes para el Header en escritorio */
+    .inicio header {
+        height: 15vh;
+        margin: 20px;
+    }
+
+    .inicio header h1 {
+        font-size: 3em;
+        
+    }
+
+    .inicio header h1 img {
+        width: 80px;
+    }
+
+    /* Ajustes para la Sección de texto de bienvenida en escritorio */
+    .texto-bienvenida div p {
+        font-size: 26px;
+    }
+
+    /* Ajustes para el Main (botones) en escritorio */
+    .main-container {
+        padding: 100px;
+    }
+
+    .button-container a {
+        font-size: 36px;
+    }
+
+    /* Ajustes para el Footer en escritorio */
+    .inicio-footer {
+        font-size: 18px;
+    }
+    }
+/* Fin de Inicio.html */
+
+
+
+/* Inicio de Atracciones.html */
+    .atracciones {
+        background-color: #FFE4B5;
+    }
+
+    /* Inicio del Header*/
+    .atracciones header {
+        background-color: #FFF8DC;
+        padding: 10px;
+        text-align: center;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+
+    .atracciones header nav {
+        overflow-x: auto; 
+        white-space: nowrap;
+    }
+
+    .atracciones header nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .atracciones header nav li {
+        display: inline-block;
+        margin: 0 1%;
+    }
+
+    .atracciones header nav a {
+        text-decoration: none;
+        color: gray;
+    }
+
+    .atracciones header img {
+        max-width: 50px; 
+        margin-right: 10px;
+    }
+
+    .atracciones header,
+    .atracciones h1,
+    .atracciones h3 {
+        font-family: "Bebas Neue", sans-serif;
+    }
+    /* Fin de nuestro Header */
+
+    /* Inicio de nuestro Section */
+    .atracciones section h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .titulo-inicial {
+        margin: 30px;
+    }
+
+    .atracciones section,
+    .atracciones footer {
+        text-align: left;
+    }
+
+    .atracciones section div {
+        margin-left: 10px;
+    }
+    /* Fin de nuestro Section */
+
+    /* Section del video para acomodarlo */
+    .video-malaga iframe{
+        margin: 50px auto;
+        display: block;
+    }
+    /* Fin de la section del video */
+
+    /* Inicio de nuestro Footer */
+    .fondo {
+        border-top: 2px solid black;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    /* Fin de nuestro Footer */
+
+
+
+    /* Query-Mobile */
+    /* Oculta mi NavBar personalizada en Mobile || esto aprovecho y se lo aplico a todas las navbar de los otros html*/
+    @media only screen and (max-width: 480px) {
+        .pantalla-compu {
+            display: none;
+        }
+
+        /* NavBar de Bootstrap visible en pantallas pequeñas */
+        .d-lg-none {
+            display: block !important; /* !important es necesario para anular la propiedad display: none de Bootstrap */
+        }
+
+        .video-malaga iframe {
+            width: auto; 
+            height: auto; 
+            
+        }
+    }
+    /* Fin de la Mobile */
+
+    /* Query-Desktop */
+    @media only screen and (min-width: 981px) {
+
+        /* Oculta la NavBar de Bootstrap en Desktop || tambien aprovecho y se lo aplico a todas las navbar de los otros html*/
+        .navbar {
+            display: none;
+        }
+
+        /* Ajustes para el header */
+        .barra-navegante li {
+            margin: 5px 0; /* Añade espacio entre los elementos de la barra de navegación */
+        }
+
+        .atracciones header img {
+            max-width: 40px; /* Reduzco el tamaño del logo en pantallas más pequeñas */
+        }
+
+        /* Ajustes para el section */
+        .titulo-inicial {
+            margin: 20px;
+            font-size: 1.5em; 
+        }
+
+        .atracciones section div {
+            margin-left: 0; /* Elimina el margen izquierdo */
+        }
+
+        /* Ajustes para el video */
+        .video-malaga iframe {
+            margin: 20px auto;
+        }
+
+        /* Ajustes para el footer */
+        .comida-malaga {
+            margin-top: 20px; 
+        }
+
+        .fondo {
+            margin-top: 10px;
+        }
+    }
+    /* Fin de la Desktop */
+
+/* Fin de Atracciones.html */
+
+
+
+/* Inicio de acerca.html */
+    .acerca {
+        background-color: #FFE4B5;
+    }
+
+    /* Inicio del Header*/
+    .acerca header {
+        background-color: #FFF8DC;
+        padding: 10px;
+        text-align: center;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+
+    .acerca header nav {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .acerca header nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .acerca header nav li {
+        display: inline-block;
+        margin: 0 1%;
+    }
+
+    .acerca header nav a {
+        text-decoration: none;
+        color: gray;
+    }
+
+    .acerca header img {
+        max-width: 50px;
+        margin-right: 10px;
+    }
+
+    .acerca header, 
+    .acerca h1, 
+    .acerca h2 {
+        font-family: "Bebas Neue", sans-serif;
+    }
+    /* Fin de nuestro Header */
+
+    /* Inicio de nuestro Section */
+    .acerca section h1,
+    .acerca section h2,
+    .ciudad {
+        text-align: center;
+    }
+
+    .acerca section h1 {
+        font-size: 2em;
+    }
+
+    .acerca section h2 {
+        font-size: 2em;
+        margin: 30px;
+    }
+
+    .historia-1 {
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+    .historia-1 div {
+    float: left;
+    width: 60%;
+    }
+    
+    .historia-1 img {
+        float: right;
+        margin-left: 20px;
+        max-width: 35%;
+        height: auto;
+    }
+
+    .historia-2 {
+        overflow: hidden;
+    }
+
+    .historia-2 img {
+        float: left;
+        margin-right: 20px;
+        max-width: 30%;
+        height: auto;
+    }
+
+    .historia-2 div {
+        overflow: hidden;
+    }
+    /* Fin de nuestro Section */
+
+    /* Media query de Mobile */
+    @media only screen and (max-width: 480px) {
+        
+        .acerca-titulo {
+            padding: 25px 15px 10px 15px;
+        }
+
+        .subtitulo-historia {
+            padding: 5px;
+
+        }
+
+        .historia-1 {
+            overflow: hidden;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column; /* Invierte la dirección de los elementos, p estará arriba */
+        }
+    
+        .historia-1 div {
+            width: 100%; /* Ocupa todo el ancho disponible */
+            padding: 0px 15px 15px 15px;
+            text-align: center;
+        }
+    
+        .historia-1 img {
+            max-width: 80%; /* Haz que la imagen ocupe todo el ancho disponible */
+            margin: 0 auto; /* Centra la imagen horizontalmente */
+            padding-bottom: 20px;
+        }
+    
+        .historia-2 {
+            overflow: hidden;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column-reverse; /* Invierte la dirección de los elementos, p estará arriba */
+        }
+    
+        .historia-2 div {
+            width: 100%; /* Ocupa todo el ancho disponible */
+            padding: 15px;
+            text-align: center;
+        }
+    
+        .historia-2 img {
+            max-width: 80%; /* Haz que la imagen ocupe todo el ancho disponible */
+            margin: 0 auto; /* Centra la imagen horizontalmente */
+            padding-bottom: 20px;
+        }
+
+        .foot-acerca {
+            border-top: 2px solid black;
+            margin-left: 15px;
+            font-size: 10px;
+        }
+    }
+    /* Fin de Mobile */
+
+    /* Media-Query Desktop */
+    @media only screen and (min-width: 981px) {
+        .navbar {
+            display: none;
+        }
+    
+        .barra-navegante li {
+            margin: 5px 0px;
+        }
+    
+        .acerca header img {
+            max-width: 40px; 
+            margin-right: 20px;
+        }
+
+        .acerca-titulo {
+            margin: 40px 20px 40px 20px;
+        }
+
+        .cultura-ocio {
+            margin: 6px;
+        }
+
+        .foot-acerca {
+            border-top: 2px solid black;
+            margin: 20px;
+            font-size: 10px;
+        }
+    }
+    /* Fin Desktop */
+
+/* Fin de acerca.html */
+
+
+
+/* Inicio de rutas.html */
+.rutas {
+    background-color: #FFE4B5;
+}
+
+    /* Inicio del Header*/
+.rutas header {
+    background-color: #FFF8DC;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.rutas header nav {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.rutas header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rutas header nav li {
+    display: inline-block;
+    margin: 0 1%;
+}
+
+.rutas header nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.rutas header img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.rutas header, 
+.rutas h1, 
+.rutas h2, 
+.rutas h3, 
+.rutas h4 {
+    font-family: "Bebas Neue", sans-serif;
+}
+    /* Fin de nuestro Header */
+
+    /* Inicio de nuestro Section */
+.empezar {
+    text-align: center;
+}
+
+.empezar h1 {
+    font-size: 2em;
+}
+
+.rutina div div h2,
+.rutina div div h3 {
+    text-align: left;
+}
+
+.rutina div div iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 380px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    /* Fin de nuestro Section */
+
+    /* Inicio de nuestro Footer */
+.derechos {
+    margin-top: 40px;
+    text-align: left;
+}
+    /* Fin de nuestro Footer */
+
+/* Fin de rutas.html */
+
+
+
+/* Inicio de nosotros.html */
+.nosotros {
+    background-color: #FFE4B5;
+}
+
+    /* Inicio del Header*/
+.nosotros header {
+    background-color: #FFF8DC;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.nosotros header nav {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.nosotros header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nosotros header nav li {
+    display: inline-block;
+    margin: 0 1%;
+}
+
+.nosotros header nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.nosotros header img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.nosotros header, section h1, footer h2 {
+    font-family: "Bebas Neue", sans-serif;
+}
+    /* Fin de nuestro Header */
+
+    /* Inicio de nuestro Section */
+.nosotros section {
+    text-align: center;
+}
+
+.nosotros section h1 {
+    font-size: 2em;
+}
+
+.nosotros section div img {
+    align-items: center;
+    width: 70%;
+    margin-bottom: 20px;
+}
+    /* Fin de nuestro Section */
+
+    /* Inicio de nuestro Footer */
+.nosotros footer h2 {
+    text-align: center;
+}
+
+.nosotros footer img {
+    max-width: 100px; 
+    height: 100px; 
+    margin: 0 30px; 
+}
+
+.nosotros footer div {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.nosotros footer p {
+    margin-top: 20px; 
+}
+    /* Fin de nuestro Footer */
+
+/* Fin del nosotros.html */
