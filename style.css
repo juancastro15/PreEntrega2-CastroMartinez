@@ -40,7 +40,7 @@
     /* Fin de nuestro Header */
 
     /* Inicio de nuestro Section */
-    .inicio section div p {
+    .texto-bienvenida div p {
         text-align: center;
         color: #ffffe0;
         font-family: "Lobster", sans-serif;
