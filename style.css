@@ -16,6 +16,20 @@
         background-image: url(Imagenes/mlaga-2.jpeg);
     }
 
+    /* Añadimos un contenedor general con un sistema de grid */
+    .inicio .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+        grid-template-rows: repeat(3, auto); /* Altura automática para las filas */
+        gap: 10px; /* Espaciado entre celdas */
+        height: 100vh; /* Ocupar el 100% de la altura visible */
+    }
+
+    /* Ajustamos los elementos para que ocupen todo el espacio disponible en su celda */
+    .inicio header, .inicio .texto-bienvenida {
+        grid-column: span 3; /* Ocupar las 3 columnas disponibles */
+    }
+
     /* Inicio del Header*/
     .inicio header {
         display: flex;
@@ -47,9 +61,6 @@
         font-size: 33px;
         font-weight: 400;
         font-style: normal;
-}
-
-    .texto-bienvenida {
         margin: 5px;
     }
     /* Fin de nuestro Section */
@@ -57,7 +68,7 @@
     /* Inicio del Main */
     /* Estilos para los botones */
     .main-container {
-        padding: 80px;
+        padding-bottom: 50px;
     }
     
     .button-container a {
@@ -94,6 +105,9 @@
 
     .inicio-footer p {
         color: white;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        margin-top: 20px;
     }
     /* Fin de nuestro Footer */
 
@@ -133,39 +147,12 @@
 
     /* Media-query de Desktop */
     @media only screen and (min-width: 981px) {
-        /* Ajustes para el Header en escritorio */
-    .inicio header {
-        height: 15vh;
-        margin: 20px;
-    }
-
-    .inicio header h1 {
-        font-size: 3em;
-        
-    }
-
-    .inicio header h1 img {
-        width: 80px;
-    }
-
-    /* Ajustes para la Sección de texto de bienvenida en escritorio */
-    .texto-bienvenida div p {
-        font-size: 26px;
-    }
-
-    /* Ajustes para el Main (botones) en escritorio */
-    .main-container {
-        padding: 100px;
-    }
-
-    .button-container a {
-        font-size: 36px;
-    }
-
-    /* Ajustes para el Footer en escritorio */
-    .inicio-footer {
-        font-size: 18px;
-    }
+        .inicio .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+            grid-template-rows: repeat(3, auto); /* Altura automática para las filas */
+            gap: 10px; /* Espaciado entre celdas */
+            height: 50vh; /* Ocupar el 100% de la altura visible */
     }
 /* Fin de Inicio.html */
 
