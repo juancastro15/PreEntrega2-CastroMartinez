@@ -35,7 +35,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 20vh;}
+        height: 20vh;
+    }
 
     .inicio header h1 {
         padding: 25px;
@@ -153,6 +154,7 @@
             grid-template-rows: repeat(3, auto); /* Altura automática para las filas */
             gap: 10px; /* Espaciado entre celdas */
             height: 50vh; /* Ocupar el 100% de la altura visible */
+        }
     }
 /* Fin de Inicio.html */
 
@@ -677,5 +679,5 @@
     margin-top: 20px; 
 }
 /* Fin de nuestro Footer */
-}
+
 /* Fin del nosotros.html */
