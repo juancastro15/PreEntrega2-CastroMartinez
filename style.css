@@ -14,6 +14,8 @@
 /* Comienzo de Inicio.html */
     .inicio {
         background-image: url(Imagenes/mlaga-2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     /* Añadimos un contenedor general con un sistema de grid */
