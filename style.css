@@ -69,6 +69,7 @@
     /* Inicio del Main */
     /* Estilos para los botones */
     .main-container {
+        padding-top: 10%;
         padding-bottom: 50px;
     }
     
