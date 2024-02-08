@@ -1,4 +1,4 @@
-# Conoce-Malaga
+# Conoce Malaga
 <h1 align="center">Hola 👋, soy Juan Carlos Castro Martinez</h1>
 <h3 align="center">Estudiante de Full Stack en CoderHouse</h3>
 
