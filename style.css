@@ -24,7 +24,6 @@
         grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
         grid-template-rows: repeat(3, auto); /* Altura automática para las filas */
         gap: 10px; /* Espaciado entre celdas */
-        height: 100vh; /* Ocupar el 100% de la altura visible */
     }
 
     /* Ajustamos los elementos para que ocupen todo el espacio disponible en su celda */
@@ -131,7 +130,7 @@
             margin: 0 5px; /* Reduzco el margen de la imagen */
         }
 
-        
+
 
         .main-container {
             padding: 40px; /* Ajusté el padding */
